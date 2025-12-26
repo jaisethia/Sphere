@@ -1,23 +1,12 @@
 html,
+
 body {
-  width: 100%;
   height: 100%;
-  margin: 0;
   padding: 0;
-  background: rgba(0, 0, 0, 0.85);
-  overflow: hidden;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.851);
 }
 
-/* Container */
-.box {
-  position: fixed;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Centered canvas */
 canvas {
   width: 100%;
   height: 100%;
