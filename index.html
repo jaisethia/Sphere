@@ -322,7 +322,7 @@ pauseButton.onclick = () => {
 function animate() {
   requestAnimationFrame(animate);
 
-  if (autoRotate) scene.rotation.y += 0.02;
+  if (autoRotate) scene.rotation.y += 0.005;
 
   imageMeshes.forEach(m => {
     const camDir = new THREE.Vector3();
